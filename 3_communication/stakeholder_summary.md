@@ -47,5 +47,5 @@ To ensure more accurate analysis and business insights, we need your input on:
 Let us know your thoughts, and we’d be happy to refine our approach.
 
 Best,  
-Akhila Alla
+Akhila Aalla
 aakhiladata@gmail.com
