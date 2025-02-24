@@ -16,7 +16,7 @@ users_df = pd.read_csv(users_file)
 
 print("Data loaded successfully!")
 
-
+#To find missing Values
 def missing_values_summary(df, dataset_name):
     missing_values = df.isnull().sum()
     missing_percentage = (missing_values / len(df)) * 100
@@ -43,7 +43,7 @@ print(f" Missing values summary saved: {missing_values_csv_path}")
 
 
 
-
+# Function to plot missing values by heatmap
 def plot_missing_heatmap(df, dataset_name):
     plt.figure(figsize=(10,6))
     sns.heatmap(df.isnull(), cbar=False, cmap="viridis", yticklabels=False)
